@@ -70,6 +70,7 @@ public class UniformCostSearch   extends ASearch
 	public ASearchNode getBest() 
 	{
 		return open.remove();
+
 	}
 
 }
